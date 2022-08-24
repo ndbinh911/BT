@@ -1,0 +1,58 @@
+ol {
+    background: #ff9999;
+    /* màu nền */
+    padding: 20px;
+    /* làm dày thêm */
+}
+
+ul {
+    background: #3399ff;
+    /* màu nền */
+    padding: 20px;
+    /* làm dày thêm */
+}
+
+ol li {
+    background: #ffe5e5;
+    /* màu nền */
+    padding: 5px;
+    /* làm dày thêm */
+    margin-left: 35px;
+    /* tạo khoảng trắng */
+}
+
+ul li {
+    background: #cce5ff;
+    /* màu nền */
+    margin: 5px;
+    /* làm dày thêm */
+}
+
+ul.a {
+    list-style-type: circle;
+    /* kiểu chỉ mục:  hình tròn*/
+}
+
+ul.b {
+    list-style-type: square;
+    /* kiểu chỉ mục:  hình chữ nhật*/
+}
+
+ol.c {
+    list-style-type: upper-roman;
+    /* kiểu chỉ mục:  số la mã*/
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+    /* kiểu chỉ mục:  danh sách chữ thường alphabet*/
+}
+
+ul.a {
+    list-style-position: inside;
+    /* Chỉ mục sẽ nằm bên trong phần tử <li> */
+}
+ul.b {
+    list-style-position: outside;
+    /* Chỉ mục sẽ nằm bên ngoài phần tử <li> */
+}
